@@ -29,7 +29,7 @@ Each split is defined by a circle in the 2D space of an attribute pair:
 
 The split is chosen to maximize **information gain**:
 
-<img src="https://latex.codecogs.com/svg.latex?IG(S,A)=H(S)-\sum_{v\in\text{Values}(A)}\frac{|S_v|}{|S|}H(S_v)" alt="Information Gain Formula" />
+<img src="https://latex.codecogs.com/svg.latex?\color{White}IG(S,A)=H(S)-\sum_{v\in\text{Values}(A)}\frac{|S_v|}{|S|}H(S_v)" alt="Information Gain Formula" style="background-color:black; padding:10px; border-radius:5px;" />
 
 Where:
 - $H(S)$ is the entropy of set $S$
